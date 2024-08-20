@@ -35,4 +35,5 @@ public class Main {
         System.out.println("No total isso dá " + df.format(prcTtlTecMec) + ". Isso é o valor sem as taxas,\n" + "com elas embutidas, fica " + df.format(prcTtlTecMecTxa) + "." );
         System.out.println("Se a gente vai querer lucrar " + df2.format(lcr * 100) + "%,\n" + "o preço final de tudo que temos ficará " + df.format(prcFinalTecMec) + ".");
     }
+
 }
